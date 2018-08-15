@@ -1,0 +1,22 @@
+{
+  "name": "ferryferret",
+  "version": "1.0.0",
+  "description": "Software Delivery Pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marchuanv/ferryferret.git"
+  },
+  "author": "Marchuan Van Der Merwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marchuanv/ferryferret/issues"
+  },
+  "homepage": "https://github.com/marchuanv/ferryferret#readme",
+  "dependencies": {
+    "github-client": "^0.8.0"
+  }
+}

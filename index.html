@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script type="text/javascript" src="lib/node.js"></script>
+		<script type="text/javascript" src="lib/nodeFactory.js"></script>
+	</head>
+	<body>
+		<script>
+			const body = document.getElementsByTagName("body")[0];
+			const nodeFactory=new NodeFactory();
+			nodeFactory.create();
+			for(const node of nodeFactory.nodes){
+				body.appendChild(node.draw());
+			}
+			body.onmouseup=function(){
+				console.log(document.activeElement);
+				const att=document.activeElement.getAttribute("class");
+				if (att.value=="node"){
+					console.log(document.activeElement.id);
+				}
+			}
+		</script>
+	</body>
+</html>
