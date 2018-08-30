@@ -4,17 +4,10 @@
 	</head>
 	<body>
 		<script>
-			function ready(fn) {
-			  if (document.readyState !== 'loading'){
-			    fn();
-			  } else {
-			    document.addEventListener('DOMContentLoaded', fn);
-			  }
-			}
-			ready(()=>{
+			document.onload=()=>{
 			  	const nodeFactory=new NodeFactory();
 				nodeFactory.create("step01");
-			});
+			};
 		</script>
 	</body>
 </html>
