@@ -4,7 +4,8 @@
 	</head>
 	<body>
 		<script type="text/javascript" src="bootstrap.js">
-			load().then(()=>{
+			const bootstrap = new Bootstrap();
+			bootstrap.load().then(()=>{
 			  	const nodeFactory=new NodeFactory();
 				nodeFactory.create("step01");
 			});
