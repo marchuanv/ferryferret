@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/marchuanv/ferryferret/issues"
   },
-  "homepage": "https://github.com/marchuanv/ferryferret#readme",
-  "dependencies": {
-    "github-client": "^0.8.0"
-  }
+  "homepage": "https://github.com/marchuanv/ferryferret#readme"
 }
