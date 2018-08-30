@@ -1,2 +1,0 @@
-# ferryferret
-Software Delivery Pipeline
