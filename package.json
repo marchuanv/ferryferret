@@ -7,6 +7,10 @@
     "test": "tests.js",
     "start": "node index.js"
   },
+  "engines": {
+    "node": "8.11.3",
+    "npm": "4.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/marchuanv/ferryferret.git"
