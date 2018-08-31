@@ -51,5 +51,7 @@ request("/package.json").then(async(pkgJson)=>{
 			};
 		});
 		return Promise.all(promises);
+	}).then(()=>{
+		console.log("all scripts loaded");
 	});
 });
