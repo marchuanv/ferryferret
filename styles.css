@@ -6,11 +6,11 @@
 
 .node .node_title {
   position: relative;
-  width: 100px;
+  width: 100%
 }
 
 .node .node_canvas{
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
