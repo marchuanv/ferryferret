@@ -15,9 +15,10 @@
 				context.clearRect(0, 0, canvas.width, canvas.height);
 				const newNode=new api.Node("test", utils, context);
 				canvas.onmousedown=(e)=>{
+					const rect = canvas.getBoundingClientRect();
 					const mousePos = {
-						x: e.clientX,
-					    	y: e.clientY
+						x: e.clientX - rect.left,
+						y: e.clientY - rect.top
 					};
 					if (newNode.intersect(mousePos)){
 						console.log("SELECTED");
