@@ -18,7 +18,7 @@
 				const newNode=new api.Node("test", utils, context);
 				canvas.onmousedown=(e)=>{
 					const mousePos = utils.getCanvasMousePos(e, canvas);
-					if (newNode.intersect(mousePos)){
+					if (newNode.hasFocus(mousePos)==true){
 						console.log("SELECTED");
 					}
 				}
