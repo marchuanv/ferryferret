@@ -16,8 +16,8 @@
 				const newNode=new api.Node("test", utils, context);
 				canvas.onmousedown=(e)=>{
 					const mousePos = {
-						x: e.pageX,
-					    	y: e.pageY
+						x: e.clientX,
+					    	y: e.clientY
 					};
 					if (newNode.intersect(mousePos)){
 						console.log("SELECTED");
