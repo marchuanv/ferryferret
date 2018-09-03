@@ -10,24 +10,13 @@
 			
 			api().then((api)=>{
 				const utils = new api.Utils();
+				
 				const canvas = document.getElementById('canvas');
 				canvas.width  = window.innerWidth;
   				canvas.height = window.innerHeight;
+				
 				const context = canvas.getContext('2d');
-				context.clearRect(0, 0, canvas.width, canvas.height);
-				const newNode=new api.Node("test", utils, context);
-				canvas.onmousedown=(e)=>{
-					const mousePos = utils.getCanvasMousePos(e, canvas);
-					if (newNode.hasFocus(mousePos)==true){
-						console.log("SELECTED");
-					}
-				}
-				canvas.onmousemove=(e)=>{
-					context.clearRect(0, 0, canvas.width, canvas.height);
-					const mousePos = utils.getCanvasMousePos(e, canvas);
-					newNode.move(mousePos.x, mousePos.y);
-				}
-				newNode.draw();
+				api.nodeManager(utils, context);
 			});
 		</script>
 	</body>
