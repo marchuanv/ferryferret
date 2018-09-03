@@ -17,6 +17,7 @@
 				canvas.onmousedown=(e)=>{
 					console.log(e);
 					const rect = canvas.getBoundingClientRect();
+					console.log(rect);
 					const mousePos = {
 						x: e.clientX - rect.left,
 						y: e.clientY - rect.top
