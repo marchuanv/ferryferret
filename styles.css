@@ -1,16 +1,13 @@
+* { 
+    width: inherit;
+}
+
 .node {
   width: 100px;
   height: 100px;
-   position: fixed;
+  position: fixed;
 }
 
 .node .node_title {
-  position: relative;
-  width: 100%
-}
-
-.node .node_canvas{
-  width: 100%;
-  height: 100%;
-  position: relative;
+  height: 20px;
 }
