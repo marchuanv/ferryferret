@@ -1,4 +1,8 @@
 .node_title {
+  position:"absolute"
+}
+
+.node_title {
   position:"fixed"
 }
 
