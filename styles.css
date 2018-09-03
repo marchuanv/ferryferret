@@ -1,6 +1,7 @@
 .node {
   width: 100px;
   height: 100px;
+   position: fixed;
 }
 
 .node .node_title {
@@ -11,5 +12,5 @@
 .node .node_canvas{
   width: 100px;
   height: 100px;
-  position: fixed;
+  position: relative;
 }
