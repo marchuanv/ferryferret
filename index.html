@@ -16,7 +16,8 @@
   				canvas.height = window.innerHeight;
 				
 				const context = canvas.getContext('2d');
-				new api.NodeManager(utils, context);
+				const manager = new api.NodeManager(utils, context);
+				manager.load();
 			});
 		</script>
 	</body>
