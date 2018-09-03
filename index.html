@@ -23,9 +23,9 @@
 					}
 				}
 				canvas.onmousemove=(e)=>{
+					context.clearRect(0, 0, canvas.width, canvas.height);
 					const mousePos = utils.getCanvasMousePos(e, canvas);
 					newNode.move(mousePos.x, mousePos.y);
-					context.clearRect(0, 0, canvas.width, canvas.height);
 				}
 				newNode.draw();
 			});
