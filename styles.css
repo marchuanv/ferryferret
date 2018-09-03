@@ -1,16 +1,13 @@
 .node {
   max-width: 100px;
   max-height: 100px;
-  position: fixed;
 }
 
 .node_title {
   max-width: 100px;
-  position: fixed;
 }
 
 .node_canvas{
   max-width: 100px;
   max-height: 100px;
-  position: fixed;
 }
