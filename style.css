@@ -5,9 +5,9 @@
 }
 
 .node_title {
-  position:"fixed";
+  position:"relative";
 }
 
 .node_canvas{
-  position:"fixed";
+  position:"relative";
 }
