@@ -24,6 +24,7 @@
 				}
 				canvas.onmousemove=(e)=>{
 					const mousePos = utils.getCanvasMousePos(e, canvas);
+					newNode.move(mousePos.x, mousePos.y);
 				}
 				newNode.draw();
 			});
