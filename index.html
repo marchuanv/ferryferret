@@ -17,9 +17,7 @@
 				context.clearRect(0, 0, canvas.width, canvas.height);
 				const newNode=new api.Node("test", utils, context);
 				canvas.onmousedown=(e)=>{
-					console.log(e);
 					const rect = canvas.getBoundingClientRect();
-					console.log(rect);
 					const mousePos = {
 						x: e.x - rect.left,
 						y: e.y - rect.top
