@@ -6,8 +6,9 @@
 		<script type="text/javascript">
 			api().then((api)=>{
 				const utils = new api.Utils();
+				const body = document.getElementById('body');
 				const newNode=new api.Node("test", utils);
-				newNode.draw();
+				newNode.draw(body);
 			});
 		</script>
 	</body>
