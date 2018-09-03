@@ -17,8 +17,9 @@
 				
 				const context = canvas.getContext('2d');
 				const manager = new api.NodeManager(utils, api.Node, api.NodeContextMenu, context);
-				manager.load();
-				manager.drawAll();
+				manager.load().then(()=>{
+					manager.drawAll();
+				});
 			});
 		</script>
 	</body>
