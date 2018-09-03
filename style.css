@@ -1,7 +1,7 @@
 .node {
   width: 100px;
   height: 100px;
-  position:"absolute";
+  position:"relative";
 }
 
 .node_title {
