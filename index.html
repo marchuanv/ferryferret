@@ -5,7 +5,8 @@
 	<body>
 		<script type="text/javascript">
 			api().then((api)=>{
-				console.log(api);
+				const newNode=new api.Node();
+				document.appendChild(newNode);
 			});
 		</script>
 	</body>
