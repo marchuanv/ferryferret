@@ -1,13 +1,13 @@
 .node {
   width: 100px;
   height: 100px;
-  position:"relative";
 }
 
 .node_title {
-  position:"relative";
+   width: 100px;
 }
 
 .node_canvas{
-  position:"relative";
+  width: 100px;
+  height: 100px;
 }
