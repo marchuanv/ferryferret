@@ -5,8 +5,11 @@
 
 .node .node_title {
   position: fixed;
+  width: 100px;
 }
 
 .node .node_canvas{
+  width: 100px;
+  height: 100px;
   position: fixed;
 }
