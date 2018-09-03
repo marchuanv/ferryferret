@@ -1,13 +1,16 @@
 .node {
   width: 100px;
   height: 100px;
+  position: fixed;
 }
 
 .node_title {
    width: 100px;
+  position: fixed;
 }
 
 .node_canvas{
   width: 100px;
   height: 100px;
+  position: fixed;
 }
