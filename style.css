@@ -1,11 +1,13 @@
 .node {
-  position:"absolute"
+  width: "100px";
+  height: "100px";
+  position:"absolute";
 }
 
 .node_title {
-  position:"fixed"
+  position:"fixed";
 }
 
 .node_canvas{
-  position:"fixed"
+  position:"fixed";
 }
