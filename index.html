@@ -7,10 +7,15 @@
 	</head>
 	<body>
 		<script type="text/javascript">
+			const canvas = document.getElementById('canvas');
+			canvas.onmousedown=()=>{
+				
+			}
 			api().then((api)=>{
 				const utils = new api.Utils();
-				const canvas = document.getElementById('canvas');
-				const newNode=new api.Node("test", utils, canvas);
+				const context = canvas.getContext('2d');
+				context.clearRect(0, 0, canvas.width, canvas.height);
+				const newNode=new api.Node("test", utils, context);
 				newNode.draw();
 			});
 		</script>
