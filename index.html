@@ -9,8 +9,8 @@
 		<script type="text/javascript">
 			api().then((api)=>{
 				const utils = new api.Utils();
-				const body = document.getElementsByTagName('body')[0];
-				const newNode=new api.Node("test", utils);
+				const canvas = document.getElementById('canvas');
+				const newNode=new api.Node("test", utils, canvas);
 				newNode.draw();
 			});
 		</script>
